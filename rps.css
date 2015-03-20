@@ -1,0 +1,66 @@
+
+.mega {
+	width: 1050px;
+	height:300px;
+	
+	margin: 100px auto;
+}
+
+
+
+body {
+	background-color: lightgrey;
+}
+
+
+.container {
+
+	
+	display: inline-block;
+	border: 8px solid lightblue;
+	background-color: white;
+	border-radius: 20px;
+	padding:10px;
+	/*background-color: lightblue*/
+
+
+}
+
+
+.resize {
+	width: 300px;
+	height: 300px;
+
+	
+}
+
+
+.rock img {
+	background-color: white;
+
+/*	border: 3px solid blue;*/
+	
+
+}
+
+.paper img {
+
+/*	border: 3px solid blue;*/
+
+	
+
+
+}
+
+.scissors img{
+
+/*	border: 3px solid blue;*/
+
+}
+
+
+h2 {
+	margin-top: 50;
+	text-align: center;
+	font-size: 60px;
+}
