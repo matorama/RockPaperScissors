@@ -41,31 +41,31 @@ function whoWins(playerChoice) {
 	console.log(playerChoice)
 	if (playerChoice == "rock" && compResultChoice == "paper"){
 		playerWins = false;
-		document.write("Computer chose paper! Computer wins!");
+		document.getElementById("heading").innerHTML = ("Computer chose paper! Computer wins!");
 		console.log("Computer chose paper! Computer wins!");
 	} else if (playerChoice == "paper" && compResultChoice == "rock"){
 		playerWins = true;
-		document.write("Computer chose rock! You win!");
+		document.getElementById("heading").innerHTML = ("Computer chose rock! You win!");
 		console.log("Computer chose rock! You win!");
 	} else if (playerChoice == "paper" && compResultChoice == "scissors"){
 		playerWins = false;
-		document.write("Computer chose scissors! Computer wins!");
+		document.getElementById("heading").innerHTML = ("Computer chose scissors! Computer wins!");
 		console.log("Computer chose scissors! Computer wins!");
 	} else if (playerChoice == "scissors" && compResultChoice == "paper"){
 		playerWins = true;
-		document.write("Computer chose paper! You win!");
+		document.getElementById("heading").innerHTML = ("Computer chose paper! You win!");
 		console.log("Computer chose paper! You win!");
 	} else if (playerChoice == "scissors" && compResultChoice == "rock"){
 		playerWins = false;
-		document.write("Computer chose rock! Computer wins!");
+		document.getElementById("heading").innerHTML = ("Computer chose rock! Computer wins!");
 		console.log("Computer chose rock! Computer wins!");
 	} else if (playerChoice == "rock" && compResultChoice == "scissors"){
 		playerWins = true;
-		document.write("Computer chose scissors! You win!");
+		document.getElementById("heading").innerHTML = ("Computer chose scissors! You win!");
 		console.log("Computer chose scissors! You win!");
 	} else {
 		playerTie = true;
-		document.write("You both chose the same! It's a tie!");
+		document.getElementById("heading").innerHTML = ("You both chose the same! It's a tie!");
 		console.log("You both chose the same! It's a tie!");
 	}
 } 
